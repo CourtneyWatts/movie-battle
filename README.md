@@ -7,7 +7,6 @@ Use the search boxes to search for your desired movie. Once 2 movies have been s
 Libraries: Axios, Bulma CSS
 API: OMDb API
 
-
 ### Live Search view
 ![](images/desktop-view1.jpg)
 
