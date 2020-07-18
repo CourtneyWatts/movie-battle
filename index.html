@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
     <link
       rel="stylesheet"
@@ -25,7 +29,7 @@
         </div>
       </div>
     </section>
-    <div class="container">
+    <div id='main-app' class="container">
       <div class="columns">
         <div class="column">
           <div id="left-autocomplete"></div>
@@ -38,8 +42,11 @@
       </div>
       <div class="column is-half notification is-primary tutorial">
         <h1 class="title">Search For a Movie on Both Sides</h1>
-        <p class="subtitle">Find out which is best!</p>
+        <p class="subtitle">Find out who wins the battle of the stats!</p>
       </div>
+    </div>
+    <div id="placeholder">
+      <p>Browser window is too small, please expand your browser window.</p>
     </div>
     <script src="utils.js"></script>
     <script src="autocomplete.js"></script>
